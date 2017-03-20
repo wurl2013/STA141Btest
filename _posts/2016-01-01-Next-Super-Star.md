@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “Next Super Star”
+title: Hello STA 141B Headlings
 categories: journal
 tags: [documentation,sample]
 image:
