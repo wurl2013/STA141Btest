@@ -1,6 +1,6 @@
 # Site Settings
-title:               NBA Super Stars
-tagline:             a miniproject for STA 141B
+title:               STA 141B Course Page
+tagline:             blog and project introduction
 description:
 baseurl:            #"/STA141Btest"
 url:                #"https://wurl2013.github.io"
