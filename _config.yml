@@ -30,3 +30,5 @@ markdown:            kramdown
 highlighter:         rouge
 permalink:           none
 gems:                [jekyll-paginate]
+
+theme: jekyll-theme-cayman
