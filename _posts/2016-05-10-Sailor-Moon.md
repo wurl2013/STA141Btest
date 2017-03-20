@@ -1,11 +1,11 @@
 ---
 layout: post
-title: New Post2
+title: Sailor Moon
 categories: journal
 tags: [documentation,sample]
 image:
-  feature: salormoon.jpeg
-  teaser: salormoon-teaser.jpeg
+  feature: salormoon.png
+  teaser: salormoon-teaser.png
   credit: 
   creditlink: 
 ---
