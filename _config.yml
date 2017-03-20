@@ -2,13 +2,13 @@
 title:               NBA Super Stars
 tagline:             a miniproject for STA 141B
 description:
-baseurl:            #"/STA141B"
-url:                #"https://mengxinji.github.io"
+baseurl:            #"/STA141Btest"
+url:                #"https://wurl2013.github.io"
 github:
-  url:               #"https://mengxinji.github.io/STA141B/"
+  url:               #"https://wurl2013.github.io/STA141Btest/"
 author:
-  name:              "Mengxin"
-  email:             "mji@ucdavis.edu"
+  name:              "Wu"
+  email:             "rlwu@ucdavis.edu"
   twitter:          # "paululele"
   instagram:        # "paululele"
   github:           # "lenpaul"
