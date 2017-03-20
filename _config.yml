@@ -1,0 +1,32 @@
+# Site Settings
+title:               NBA Super Stars
+tagline:             a miniproject for STA 141B
+description:
+baseurl:            #"/STA141B"
+url:                #"https://mengxinji.github.io"
+github:
+  url:               #"https://mengxinji.github.io/STA141B/"
+author:
+  name:              "Mengxin"
+  email:             "mji@ucdavis.edu"
+  twitter:          # "paululele"
+  instagram:        # "paululele"
+  github:           # "lenpaul"
+  facebook:         # "Le.Paul.94"
+  linkedin:         # "lenpaul"
+navigation:
+- title: About
+  url: /about
+- title: Writing
+  url: /writing
+- title: Contact
+  url: /contact
+
+paginate:            5
+disqus:              #"your-disqus"
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+gems:                [jekyll-paginate]
