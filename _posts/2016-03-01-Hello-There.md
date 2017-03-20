@@ -5,8 +5,8 @@ categories: journal
 tags: [documentation,sample]
 image:
   feature: cluster.png
-  teaser: nbafans-teaser.png
-  credit: Death to Stock Photo
+  teaser: cluster-teaser.png
+  credit: 
   creditlink: ""
 ---
 
