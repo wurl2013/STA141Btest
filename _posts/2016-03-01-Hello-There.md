@@ -4,7 +4,7 @@ title: Hello STA 141B Headlings
 categories: journal
 tags: [documentation,sample]
 image:
-  feature: nbafans.png
+  feature: cluster.png
   teaser: nbafans-teaser.png
   credit: Death to Stock Photo
   creditlink: ""
