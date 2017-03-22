@@ -10,7 +10,7 @@ image:
   creditlink: ""
 ---
 
-This is one interesting question from STA141B assignment. This assignment was done using Python sqlite3, basemap, matplotlib and pandas. You may learn other questions in this homework from this [link](https://wurl2013.github.io/STA141Btest/attachment/assignment6.html).
+These two interesting questions come from STA141B assignment. This assignment was done using Python sqlite3, basemap, matplotlib and pandas. You may learn other questions in this assignment from this [link](https://wurl2013.github.io/STA141Btest/attachment/assignment6.html).
 
 #  Which part of San Francisco is Most Dangerous (and what time)?
 
