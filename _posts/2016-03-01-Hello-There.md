@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Hello STA 141B Headlings
-categories: journal
+title: Dangerous San Francisco
+categories: assignment
 tags: [documentation,sample]
 image:
   feature: cluster.png
@@ -10,18 +10,13 @@ image:
   creditlink: ""
 ---
 
+This is one interesting question from STA141B assignment. This assignment was done using Python sqlite3, basemap, and pandas. You may learn other questions in this homework from this [jupyter notebook](https://wurl2013.github.io/STA141Btest/attachment/assignment6.ipynb).
 
-# **Hello KittyA**
+#  Which part of San Francisco is Most Dangerous (and what time)?
 
-## _Motivation_
+## Data Description and Processing
+The database *noise* was collected from [SF openData](https://data.sfgov.org/). It contains noise complaints dating back to August 2015. It recorded case number, category, description, time, district, resolution, address, longitute and latitute.  
+The information in the database is imported into pandas dataframe using `pd.read_sql_query()`.
 
-Given the large basis of NBA audiences and increasing pursue for super stars, using past year data to analyze who is the next super star seems to be an interesting and meaningful question.
-
-![Right-aligned image](/images/pieCL.png)
-
-
-## _Questions_
-
-Using NBA statistic data, we would like to do some exploratory analysis and data visualization over ``all stars'' and ``potential players'' based on their first four seasons data.
-
-## Layout1
+## Data Visualization
+To find out which part of San Francisco is most dangerous, I mapped 
