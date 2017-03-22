@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Dangerous San Francisco
+title: Two Data Visualization Question about San Francisco
 categories: assignment
 tags: [documentation,sample]
 image:
-  feature: cluster.png
-  teaser: cluster-teaser.png
+  feature: crimeSF1.png
+  teaser: crimeSF1-teaser.png
   credit: 
   creditlink: ""
 ---
@@ -22,6 +22,10 @@ The information in the database is imported into pandas dataframe using `pd.read
 ### Dangerous Part in SF
 To find out which part of San Francisco is most dangerous, I mapped a heatmap of the crime number. As the plot below show, Southern dstrict is the most dangerous place in SF. The crime number is almost 200000. Also, by using the barplot, the crime number in Southern district is much higher than other districts in SF.
 
+![image](https://wurl2013.github.io/STA141Btest/images/crimeSF1.png)
+![image](https://wurl2013.github.io/STA141Btest/images/crimeSF2.png)
+
 ### Dangerous Time in SF
 As for most dangerous time in SF, I ploted the histogram of crime case time. From the histogram, it is clear that the most dangerous time in a day is around 6pm. Crime case number starts to increase from 5am and increases until 18-19pm, then drops.
 
+![image](https://wurl2013.github.io/STA141Btest/images/crimeSF3.png)
