@@ -16,7 +16,7 @@ These two interesting questions come from STA141B assignment. This assignment wa
 
 ## Data Description and Processing
 The dataset *crime* was collected from [SF openData](https://data.sfgov.org/). It contains crime case dating back to August 2015. It recorded case number, category, description, time, district, resolution, address, longitude and latitude.  
-The information in the database is imported into pandas dataframe using `pd.read_sql_query()`.
+The datasets is imported into pandas dataframe from sql using `pd.read_sql_query()`.
 
 ## Data Visualization and Conclusion
 ### Dangerous Part in SF
