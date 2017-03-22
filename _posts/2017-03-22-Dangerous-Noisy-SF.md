@@ -12,7 +12,7 @@ image:
 
 These two interesting questions come from STA141B assignment. This assignment was done using Python sqlite3, basemap, matplotlib and pandas. You may learn other questions in this assignment from this [link](https://wurl2013.github.io/STA141Btest/attachment/assignment6.html).
 
-#  Which part of San Francisco is Most Dangerous (and what time)?
+#  Question 1: Which part of San Francisco is Most Dangerous (and what time)?
 
 ## Data Description and Processing
 The dataset *crime* was collected from [SF openData](https://data.sfgov.org/). It contains crime case dating back to August 2015. It recorded case number, category, description, time, district, resolution, address, longitude and latitude.  
@@ -30,7 +30,7 @@ As for most dangerous time in SF, I ploted the histogram of crime case time. Fro
 
 <img src="https://wurl2013.github.io/STA141Btest/images/crimeSF3.png" width="80%" align="middle"/>
 
-# Are noise complaints and mobile food vendors related?
+# Question 2: Are noise complaints and mobile food vendors related?
 
 ## Data Description and Processing
 Two datasets The method of data processing and visualization is similar as described above. The datasets used in this part are *noise* and *mobile_food_location*. Noise contains caseID, Type, Address, Neighborhood, DateTime, Latitude and Longitude of each noise complaint case. Mobile_food_location contains locationid, LocationDescription, Address, Latitude and Longitude of each vendor.
