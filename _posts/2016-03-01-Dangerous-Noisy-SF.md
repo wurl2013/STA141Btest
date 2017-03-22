@@ -10,7 +10,7 @@ image:
   creditlink: ""
 ---
 
-This is one interesting question from STA141B assignment. This assignment was done using Python sqlite3, basemap, matplotlib and pandas. You may learn other questions in this homework from this [jupyter notebook](https://wurl2013.github.io/STA141Btest/attachment/assignment6.ipynb).
+This is one interesting question from STA141B assignment. This assignment was done using Python sqlite3, basemap, matplotlib and pandas. You may learn other questions in this homework from this [link](https://wurl2013.github.io/STA141Btest/attachment/assignment6.html).
 
 #  Which part of San Francisco is Most Dangerous (and what time)?
 
@@ -22,7 +22,7 @@ The information in the database is imported into pandas dataframe using `pd.read
 ### Dangerous Part in SF
 To find out which part of San Francisco is most dangerous, I mapped a heatmap of the crime number. As the plot below show, Southern dstrict is the most dangerous place in SF. The crime number is almost 200000. Also, by using the barplot, the crime number in Southern district is much higher than other districts in SF.
 
-<img src="https://wurl2013.github.io/STA141Btest/images/crimeSF1.png" width=80% align="middle"/>
+<img src="https://wurl2013.github.io/STA141Btest/images/crimeSF1.png" width=50% align="middle"/>
 <img src="https://wurl2013.github.io/STA141Btest/images/crimeSF2.png" width="200" height="200" align="middle"/>
 
 ### Dangerous Time in SF
@@ -39,7 +39,7 @@ Two datasets The method of data processing and visualization is similar as descr
 The noise complaints are not very much related with mobile food vendors.
 The barplot of noise complaints type shows that only few complaints is about mobile food vendors. Also, from the heatmap marking the noise number and vendors, we can see that the density of noise complaints are not very high associated with the distribution of vendors, especially in southern part of the city. Though in the areas where there are a lot of complaints, the number of vendors is large. However, it is not the opposite, in areas where there is a lot of vendors, the density of complaints are not always high. So the association between them is not very high.
 
-<img src="https://wurl2013.github.io/STA141Btest/images/noiseSF1.png" width="200" height="200" align="middle"/>
+<img src="https://wurl2013.github.io/STA141Btest/images/noiseSF1.png" width="400" height="600" align="middle"/>
 
 <img src="https://wurl2013.github.io/STA141Btest/images/noiseSF2.png" width="200" height="200" align="middle"/>
 
