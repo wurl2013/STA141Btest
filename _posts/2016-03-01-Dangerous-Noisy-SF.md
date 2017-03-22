@@ -4,8 +4,8 @@ title: Two Data Visualization Question about San Francisco
 categories: assignment
 tags: [documentation,sample]
 image:
-  feature: crimeSF1.png
-  teaser: crimeSF1-teaser.png
+  feature: sf.png
+  teaser: sf-teaser.png
   credit: 
   creditlink: ""
 ---
