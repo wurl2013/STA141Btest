@@ -20,3 +20,6 @@ The information in the database is imported into pandas dataframe using `pd.read
 
 ## Data Visualization
 To find out which part of San Francisco is most dangerous, I mapped 
+
+
+<p><strong>1.2.2</strong>-Which parts of the city are the most dangerous (and at what times)?</p>
