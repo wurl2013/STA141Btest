@@ -23,3 +23,19 @@ To find out which part of San Francisco is most dangerous, I mapped
 
 
 <p><strong>1.2.2</strong>-Which parts of the city are the most dangerous (and at what times)?</p>
+
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[56]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">Crime</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_sql_query</span><span class="p">(</span><span class="s2">&quot;select * from crime&quot;</span><span class="p">,</span><span class="n">conn0</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
