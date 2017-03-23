@@ -15,7 +15,7 @@ These two interesting questions come from STA141B assignment. This assignment wa
 #  Question 1: Which part of San Francisco is Most Dangerous (and what time)?
 
 ## Data Description and Processing
-The dataset *crime* was collected from [SF openData](https://data.sfgov.org/). It contains crime case dating back to August 2015. It recorded case number, category, description, time, district, resolution, address, longitude and latitude.  
+The dataset *crime* was collected from sql database "sf_data.sqlite" [SF openData](https://data.sfgov.org/). It contains crime case dating back to August 2015. It recorded case number, category, description, time, district, resolution, address, longitude and latitude.  
 The datasets is imported into pandas dataframe from sql using.
 
 ```python
@@ -34,6 +34,7 @@ from matplotlib.colors import LinearSegmentedColormap
 ```
 
 ```python
+conn0 = sqlite3.connect('sf_data.sqlite')
 Crime = pd.read_sql_query("select * from crime",conn0)
 ```
 
@@ -68,7 +69,6 @@ ax, fig, bmap = draw_sf()
 lons = list(Crime['Lon'])
 lats = list(Crime['Lat'])
 x,y = bmap(lons, lats)
-#bmap.plot(x, y, 'o', markersize=5 ,markeredgecolor="none", alpha=0.33)
 
 db = 0.003 # bin padding
 lon_bins = np.linspace(min(lons)-db, max(lons)+db, 10+1) # 10 bins
@@ -206,7 +206,8 @@ bmap.plot(x, y, 'o', markersize=8,zorder=6, markerfacecolor='#990000',markeredge
     
 # make image bigger:
 #plt.gcf().set_size_inches(15,15)
-
+ 
+# add 2 layers of scatter plot to the basemap by ggplot
 plt.scatter(x[1], y[1], label = 'Noise Complaints',alpha = 0.5, color = '#990000')
 plt.scatter(x1, y1, label = 'Vendors', alpha =0.5, color = '#80FF00')
 plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.15),
