@@ -1,6 +1,7 @@
 ---
 layout: post
 title: “The Next Super Star”
+author: Mengxin Ji, Ruolai Wu, Meng Li, Yonglin Jing
 #categories: journal
 tags: [documentation,sample]
 image:
