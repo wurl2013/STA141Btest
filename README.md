@@ -6,4 +6,4 @@ This is a website build for STA 141B by Ruolai Wu. The outer website page is [ht
 
 All the images and attached files are in file "image" and file "attachment". 
 
-The articles are eidted in "\_post" files.
+The articles are edited in "\_post" files.
