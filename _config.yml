@@ -1,6 +1,6 @@
 # Site Settings
 title:               STA 141B Course Page
-tagline:             blog and project introduction
+tagline:             blog and personal introduction
 description:
 baseurl:            #"/STA141Btest"
 url:                #"https://wurl2013.github.io"
