@@ -4,8 +4,8 @@ title: Latextest
 categories: journal
 tags: [documentation,sample]
 image:
-  feature: sailormoon.jpg
-  teaser: sailormoon-teaser.jpg
+  feature: sailormoon.png
+  teaser: sailormoon-teaser.png
   credit: 
   creditlink: ""
 ---
